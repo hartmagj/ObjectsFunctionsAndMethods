@@ -3,12 +3,12 @@ Practice DEFINING and CALLING
      FUNCTIONS
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Grant Hartman.
 """
 
 ########################################################################
 #
-# TODO: 1. PUT YOUR NAME IN THE ABOVE LINE and...
+# DONE: 1. PUT YOUR NAME IN THE ABOVE LINE and...
 #
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
@@ -103,30 +103,33 @@ def turtle3():
     maja.end_fill()
 
 
+def turtle4():
+
+
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   READ the code above.  Be sure you understand:
 #     -- How many functions are defined above?
 #           (Answer: 4)
 #     -- For each function definition:
-#          -- Where does that function definition begin?
-#             Where does it end?
+#          -- Where does that function definition begin?   ANSWER: at the def line
+#             Where does it end?   ANSWER: when there are no more indented lines
 #     -- How many times does   main   call the   turtle1   function?
 #            (Answer: 1)
-#     -- How many times does   main   call the   turtle2   function?
+#     -- How many times does   main   call the   turtle2   function?  ANSWER: 2
 #            (Hint: the answer is NOT 1.)
-#     -- What line of code calls the   main   function?
+#     -- What line of code calls the   main   function?     ANSWER: 225
 #            (Answer: look at the LAST line of this module, far below.)
 #
 #     ** ASK QUESTIONS if you are uncertain. **
 #
 #   RELATE what is DRAWN to the CODE above.  Be sure you understand:
-#       -- WHEN does the code in   main   run?
-#       -- WHEN does the code in   turtle1   run?
-#                    the code in   turtle2   run?
-#                    the code in   turtle3   run?
-#       -- For each of the above, WHY does that code run when it does?
+#       -- WHEN does the code in   main   run?  ANSWER: line 225
+#       -- WHEN does the code in   turtle1   run?   ANSWER: line 36
+#                    the code in   turtle2   run?   ANSWER: lines 38,39
+#                    the code in   turtle3   run?   ANSWER: line 37
+#       -- For each of the above, WHY does that code run when it does?  ANSWER: because the function name was called
 #
 #     ** ASK QUESTIONS if you are uncertain. **
 #
